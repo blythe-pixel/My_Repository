@@ -364,6 +364,3 @@
 #
 # print(Student.students_name("Kristian", "Roger", "Agdeppa"))
 # print(Student.student_grades())
-
-# TODO (EXMAPLE 1)
-print("Hello there!")
