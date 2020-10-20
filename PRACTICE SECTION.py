@@ -341,26 +341,29 @@
 #     mobile1.discount_price()
 
 # TODO class with decorators (classmethod & staticmethod)
-class Student():
+# class Student():
+#
+#     _, *grades = 89, 78, 91, 87, 86
+#
+#     @staticmethod
+#     def students_name(*Names):
+#         return Names
+#     """ @staticmethod is a type of decorator that turns a specific function
+#         into static, which means that function is under the class and is still an
+#         object however it can be used without passing an argument self"""
+#
+#
+#     @classmethod
+#     def student_grades(cls):
+#         return cls.grades
+#     """ @classmethod is a type of decorator that allows the function to use
+#         the class variables (cls) means class and in order to access the
+#         class variables you need to call cls followed by the name of the class
+#         variable"""
+#
+#
+# print(Student.students_name("Kristian", "Roger", "Agdeppa"))
+# print(Student.student_grades())
 
-    _, *grades = 89, 78, 91, 87, 86
-
-    @staticmethod
-    def students_name(*Names):
-        return Names
-    """ @staticmethod is a type of decorator that turns a specific function
-        into static, which means that function is under the class and is still an
-        object however it can be used without passing an argument self"""
-
-
-    @classmethod
-    def student_grades(cls):
-        return cls.grades
-    """ @classmethod is a type of decorator that allows the function to use
-        the class variables (cls) means class and in order to access the
-        class variables you need to call cls followed by the name of the class
-        variable"""
-
-
-print(Student.students_name("Kristian", "Roger", "Agdeppa"))
-print(Student.student_grades())
+# TODO (EXMAPLE 1)
+print("Hello there!")
