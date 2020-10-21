@@ -364,3 +364,12 @@
 #
 # print(Student.students_name("Kristian", "Roger", "Agdeppa"))
 # print(Student.student_grades())
+
+
+for i in range(100, 1, -1):
+    x = eval(input("Enter the first number:"))
+    y = eval(input("Enter the second number:"))
+    print("The sum is:", x + y)
+    print(f'You have {i} tries')
+
+
