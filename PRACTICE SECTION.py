@@ -365,11 +365,29 @@
 # print(Student.students_name("Kristian", "Roger", "Agdeppa"))
 # print(Student.student_grades())
 
+# TODO EXTRACTING VOWELS IN A STRING
+# my_name = "Kristian Roger Mariblanca Agdeppa"
+# total = 0
+# vowels = ('a', 'e', 'i', 'o', 'u')
+# for i in my_name.lower():
+#     try:
+#         if i in vowels:
+#             total += 1
+#             print(i, end=" ")
+#     except BaseException:
+#         print("Error")
+#
+# print() # to separate the next print from the last one
+# print("The number of vowels in my name is:", total)
 
-for i in range(100, 1, -1):
-    x = eval(input("Enter the first number:"))
-    y = eval(input("Enter the second number:"))
-    print("The sum is:", x + y)
-    print(f'You have {i} tries')
+
+
+
+
+
+
+
+
+
 
 
