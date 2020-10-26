@@ -380,14 +380,34 @@
 # print() # to separate the next print from the last one
 # print("The number of vowels in my name is:", total)
 
-
-
-
-
-
-
-
-
-
-
+# TODO CLASS INHERITANCE SINGLE-LEVEL & MULTI-LEVEL
+# class class1():
+#
+#     def function1(self):
+#         print("function 1 is working")
+#
+#
+# class class2(class1):
+#
+#     def function2(self):
+#         print("function 2 is working")
+#
+#
+# class class3(class2):
+#
+#     def function3(self):
+#         print("function 3 is working")
+#
+#
+# """ Inheritance allows us to define a class that inherits all the methods and properties from another class.
+#     Parent (main) class is the class being inherited from, also called base class.
+#     Child (sub) class is the class that inherits from another class, also called derived class."""
+#
+# func1 = class1()
+# func2 = class2()
+# func3 = class3()
+#
+# func1.function1()
+# func2.function2()
+# func3.function3()
 
