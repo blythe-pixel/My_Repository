@@ -149,7 +149,7 @@
 # import folium
 # cdo_location = [8.4542, 124.6319]
 # map = folium.Map(location=cdo_location, zoom_start=15)
-# map.save("mapa.css")
+# map.save("mapa.html")
 
 # TODO DATA VISUALIZATION USING PRETTYTABLE
 # from prettytable import *
@@ -381,7 +381,7 @@
 # print("The number of vowels in my name is:", total)
 
 # TODO CLASS INHERITANCE SINGLE-LEVEL & MULTI-LEVEL
-# class class1():
+# class class1(object):
 #
 #     def function1(self):
 #         print("function 1 is working")
@@ -403,11 +403,34 @@
 #     Parent (main) class is the class being inherited from, also called base class.
 #     Child (sub) class is the class that inherits from another class, also called derived class."""
 #
-# func1 = class1()
-# func2 = class2()
+# func1 = class3()
+# func2 = class3()
 # func3 = class3()
-#
+
 # func1.function1()
 # func2.function2()
 # func3.function3()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
