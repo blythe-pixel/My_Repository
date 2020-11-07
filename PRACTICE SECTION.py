@@ -411,22 +411,67 @@
 # func2.function2()
 # func3.function3()
 
+# TODO ABSTRACT CLASSES AND METHODS
+# from abc import *
+#
+# """ In order to make an abstract class you need to import
+#     a module called abc """
+#
+# class info(ABC):
+#
+#     @abstractmethod
+#     def student1(self): pass
+#
+#     @abstractmethod
+#     def student2(self): pass
+#
+#
+# class students(info):
+#
+#     def student1(self): print("Student 1 is present")
+#
+#     def student2(self): print("Student 2 is present")
+#
+#
+# x = students()
+#
+# x.student1()
+# x.student2()
+#
+# """ Abstract classes can be inherited by any sub classes, including all the
+#     abstract methods, all the values that the subclasses pass in the abstract methods
+#     are not overridden """
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# TODO GENERATORS
+# def calculator(num1=0, num2=0, operator=""):
+#
+#     try:
+#         if operator == "sum" or operator == "+":
+#             yield num1 + num2
+#         elif operator == "minus" or operator == "-":
+#             yield num1 - num2
+#         elif operator == "multiply" or operator == "*":
+#             yield num1 * num2
+#         elif operator == "divide" or operator == "/":
+#             yield num1 / num2
+#
+#     except BaseException as e:
+#         print(e)
+#         calculator()
+#
+# try:
+#     x = eval(input("Enter First Number:"))
+#     opr = input("Enter Operator:").lower()
+#     y = eval(input("Enter Second Number:"))
+#
+#     obj = calculator(x, y, opr)
+#
+#     for i in obj:
+#         print(i)
+#
+#
+# except BaseException as e:
+#         print(e)
 
 
 
