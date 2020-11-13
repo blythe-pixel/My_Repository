@@ -473,9 +473,29 @@
 # except BaseException as e:
 #         print(e)
 
+# TODO EXECUTION DILATION USING MODULE TIME
+# import time
+#
+# c = 0
+# while c < 10:
+#     c += 1
+#     time.sleep(0.5)
+#     print(f'Checking if Computer {c} is working...')
+#     print(f'Computer {c}', end=": ")
+#     time.sleep(1.5)
+#     print("Done!")
+#
+# else:
+#     print("All Computers are working!")
 
+import tkinter as tk
 
+def change():
+    my_string_var.set('Second Time')
 
-
-
-
+root = tk.Tk()
+my_string_var = tk.StringVar()
+my_string_var.set('First Time')
+tk.Label(root, textvariable=my_string_var).grid()
+tk.Button(root, text='Change', command=change).grid(row=1)
+root.mainloop()
