@@ -31,18 +31,26 @@ class mylabels(object):
 
     def command1(self):
         if self.chou_hp.get() == 100:
-            messagebox.showinfo("CANNOT PERFORM HEAL", "FULL HEALTH")
+            messagebox.showinfo("CAN'T PERFORM HEAL", "FULL HEALTH")
         else:
             messagebox.showinfo("HEAL!", "YOU HEALED YOURSELF")
             self.chou_hp.set(self.chou_hp.get() + 1)
 
 
     def command2(self):
-        if self.valir_hp.get() > 1:
+        if self.valir_hp.get() >= 1:
             messagebox.showwarning("ATTACK!", "YOU ATTACKED PLAYER 2")
             self.valir_hp.set(self.valir_hp.get()-1)
+            frame = LabelFrame(root, text="EFFECT:", padx=20, pady=20, font=('hooge 05_55', 15, 'bold'))
+            frame.place(x=35, y=380)
+            msg = Label(frame, text=f"Chou dealt {self.damage.get()+1} health damage to Valir!", bd=0.5, relief=SOLID,
+                        font=('hooge 05_55', 15, 'bold'), width=42, height=5, anchor=NW, fg="black")
+
+            msg.pack()
+            self.damage.set(self.damage.get()+1)
         elif self.valir_hp.get() == 0:
-            messagebox.showwarning("CANNOT PERFORM HEAL", "ENEMY DEFEATED")
+            messagebox.showwarning("CAN'T PERFORM ATTACK", "ENEMY DEFEATED")
+
 
     @staticmethod
     def Chou():
@@ -140,15 +148,19 @@ class mylabels(object):
     def message_box(self):
         frame = LabelFrame(root, text="EFFECT:", padx=20, pady=20, font=('hooge 05_55', 15, 'bold'))
         frame.place(x=35, y=380)
-        msg = Label(frame, text=f"Chou dealt 52 health damage to Valir!", bd=0.5, relief=SOLID,
+        msg = Label(frame, text=f"Chou dealt {self.damage.get()+1} health damage to Valir!", bd=0.5, relief=SOLID,
                     font=('hooge 05_55', 15, 'bold'), width=42, height=5, anchor=NW, fg="black")
-
         msg.pack()
+
+
+
 
     valir_hp = IntVar()
     chou_hp = IntVar()
-    chou_hp.set(98)
-    valir_hp.set(48)
+    damage = IntVar()
+    damage.set(96)
+    chou_hp.set(90)
+    valir_hp.set(4)
 
 
 
@@ -173,31 +185,3 @@ if __name__ == "__main__":
     root.iconphoto(False, logo)
     root.geometry("704x620")
     mainloop()
-
-
-
-# class first_label():
-#
-#     def __init__(self, text, text2, ):
-#         self.text = text
-#         self.text2 = text2
-#
-#     def first_label(self):
-#         Label(root, text=f"My Name is: {self.text}").grid(row=0, column=0)
-#         Entry(root, bd=2).grid(row=0, column=1)
-#         Label(root, text=f"I am {self.text2}").grid(row=1, column=0)
-#         self.buttons()
-#         root.geometry("300x300")
-#         root.mainloop()
-#
-#     def welcome(self): # Label(root, text=f"Welcome User").pack()
-#         messagebox.showinfo("Welcome Message", f"Welcome {self.text}")
-#
-#     def buttons(self):
-#         Button(root, text="Click to Start", padx=50, command=self.welcome, fg="white", bg="light blue").grid(row=2, column=0)
-#
-#
-# x = str(input("What is your name?:"))
-# y = str(input("How old are you?:"))
-# mylabel = first_label(x, y)
-# mylabel.first_label()
