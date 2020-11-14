@@ -488,14 +488,19 @@
 # else:
 #     print("All Computers are working!")
 
-import tkinter as tk
+# TODO BATTERY NOTIFICATION
+# import psutil
+# from plyer import notification
+# import time
+#
+# battery = psutil.sensors_battery()
+# while True:
+#     percent = battery.percent
+#     notification.notify(
+#         title="Battery Percentage",
+#         message = str(percent)+"% Battery remaining",
+#         timeout=10
+#     )
+#     time.sleep(60*60)
+#     continue
 
-def change():
-    my_string_var.set('Second Time')
-
-root = tk.Tk()
-my_string_var = tk.StringVar()
-my_string_var.set('First Time')
-tk.Label(root, textvariable=my_string_var).grid()
-tk.Button(root, text='Change', command=change).grid(row=1)
-root.mainloop()
