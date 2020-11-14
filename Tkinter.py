@@ -5,7 +5,6 @@ import tkinter.font as font
 
 root = Tk()
 
-
 class Window(Frame):
     def __init__(self, master=None):
         Frame.__init__(self, master)
@@ -87,7 +86,6 @@ class mylabels(object):
         header3.config(font=("hooge 05_53", 25))
         header3.place(x=319, y=100)
 
-
     def buttton1(self):
 
         ATTACK = Button(root, text="ATTACK", padx=50, pady=10, command=self.command2, fg="white",
@@ -102,7 +100,6 @@ class mylabels(object):
         myFont = font.Font(family="hooge 05_55")
         HEAL['font'] = myFont
         HEAL.place(x=355, y=280)
-
 
     def LP1(self):
         LP1 = Label(root, textvariable=self.chou_hp, fg="#03ac13")
@@ -152,16 +149,12 @@ class mylabels(object):
                     font=('hooge 05_55', 15, 'bold'), width=42, height=5, anchor=NW, fg="black")
         msg.pack()
 
-
-
-
     valir_hp = IntVar()
     chou_hp = IntVar()
     damage = IntVar()
     damage.set(96)
     chou_hp.set(90)
     valir_hp.set(4)
-
 
 
 if __name__ == "__main__":
