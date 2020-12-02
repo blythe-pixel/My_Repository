@@ -44,17 +44,16 @@
 # print(df.sort_values(by=['Name'], ascending=[True]).to_string())
 
 # TODO MAKE CHANGES AND UPDATING THE DATAFRAME
-from pandas import *
-import datetime
-x = datetime.datetime.now()
-
-
-df = read_excel('Students_DataFrame.xlsx')
-
-df['GPA'] = df['Programming 101'] + df['Introduction to Computer Science']
-df['GPA'] = df['GPA'] / 2
-df['Date Modified'] = x
-df.to_excel(f'Students_DataFrame(Modified).xlsx', index=False)
+# from pandas import *
+# import datetime
+# x = datetime.datetime.now()
+# df = read_excel('Students_DataFrame.xlsx')
+# 
+# df['GPA'] = df['Programming 101'] + df['Introduction to Computer Science']
+# df['GPA'] = df['GPA'] / 2
+#
+# df['Date Modified'] = x
+# df.to_excel(f'Students_DataFrame(Modified).xlsx', index=False)
 
 
 
