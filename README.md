@@ -1,6 +1,6 @@
 #         **_Welcome to my repository!_**
 
-<img src="https://www.flaticon.com/svg/static/icons/svg/733/733553.svg" width="200" height="200" >
+<img src="https://www.flaticon.com/svg/static/icons/svg/733/733553.svg" width="200" height="200" class="center">
 
 ___
 # To know more about the `creator` click [Here](https://bit.ly/3mxAjFY)
