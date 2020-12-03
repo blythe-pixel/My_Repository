@@ -1049,6 +1049,3 @@
 #
 # """ The walrus command is a type of command that turns any variable into a True Statement
 #     it can be represented as := symbol"""
-
-
-print("Hi I am Kristian's".center(50, '#'))
