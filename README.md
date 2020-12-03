@@ -14,7 +14,6 @@
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
-___
 ## Hi there, I'm [Ken](https://bit.ly/3mxAjFY) and welcome to my Repository 👋
 ___
 
@@ -45,22 +44,20 @@ ___
 <br />
 
 ___
- <img align="left" alt="blythe-pixel's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=blythe-pixel&show_icons=true&hide_border=true" />
- 
-___
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+ <img align="left" alt="blythe-pixel's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=blythe-pixel&show_icons=true&hide_border=true" />
