@@ -28,7 +28,7 @@ ___
 ### Languages and Tools:
 <img align="left" alt="Terminal" width="26px" src="https://img.icons8.com/dusk/64/000000/python.png" />
 <img align="left" alt="Terminal" width="26px" src="https://img.icons8.com/color/48/000000/pycharm.png" />
-<img align="left" alt="Visual Studio Code" width="26px" src="https://img.icons8.com/ios/50/000000/visual-studio-code-insides.png" />
+<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
@@ -45,8 +45,8 @@ ___
 <br />
 
 ___
+ <img align="left" alt="blythe-pixel's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=blythe-pixel&show_icons=true&hide_border=true" />
 
-
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
@@ -62,6 +62,3 @@ ___
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-
-___
-  <img align="left" alt="blythe-pixel's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=blythe-pixel&show_icons=true&hide_border=true" />
