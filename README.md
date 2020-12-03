@@ -16,6 +16,7 @@
 
 ## Hi there, I'm [Ken](https://bit.ly/3mxAjFY) and welcome to my Repository 👋
 ___
+### `Brief Introduction` ℹ️
 
 - 📈 I am a Data Science Student
 - 🌱 Currently learning Python and R
@@ -24,7 +25,7 @@ ___
 ### `Spotify Playing` 🎧
 [<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="Incendium Spotify Playing" width="350" />](https://open.spotify.com/user/31dmgsfkrwo4vkxkdvqoaguoh2fu)
 ___
-### `Languages and Tools` ⚙️
+### `Languages & Tools` ⚙️
 <img align="left" alt="Terminal" width="26px" src="https://img.icons8.com/dusk/64/000000/python.png" />
 <img align="left" alt="Terminal" width="26px" src="https://img.icons8.com/color/48/000000/pycharm.png" />
 <img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
