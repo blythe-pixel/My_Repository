@@ -15,12 +15,35 @@
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
 ## Hi there, I'm [Ken](https://bit.ly/3mxAjFY) and welcome to my Repository 👋
+
 ___
 ### `Brief Introduction` ℹ️
 
 - 📈 I am a Data Science Student
 - 🌱 Currently learning Python and R
 - 📖 Studying at University of Science and Technology of Southern Philippines
+
+___
+### `Accounts` 📒
+
+<img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" />
+<a href="https://discord.gg/6uvgmNa">
+
+<img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+<a href="https://discord.gg/6uvgmNa">
+
+<img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+<a href="https://discord.gg/6uvgmNa">
+
+<img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+<a href="">
+
+<img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/steam.svg" />
+<a href="">
+
+<img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
+<a href="">
+
 ___
 ### `Spotify Playing` 🎧
 [<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="Incendium Spotify Playing" width="350" />](https://open.spotify.com/user/31dmgsfkrwo4vkxkdvqoaguoh2fu)
