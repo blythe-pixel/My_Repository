@@ -26,6 +26,7 @@ ___
 ___
 ### `Accounts` 📒
 
+
 <img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" />
 <a href="https://discord.gg/6uvgmNa">
 
@@ -43,6 +44,7 @@ ___
 
 <img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
 <a href="">
+
 
 ___
 ### `Spotify Playing` 🎧
