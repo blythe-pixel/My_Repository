@@ -56,6 +56,9 @@ ___
 <img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/steam.svg" />
 <img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
 
-___
 
+
+
+
+___
  <img align="left" alt="blythe-pixel's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=blythe-pixel&show_icons=true&hide_border=true" />
