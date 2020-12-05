@@ -47,7 +47,6 @@ ___
 <br />
 
 ___
-
 ### `Accounts` 📒
 
 <img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" />
