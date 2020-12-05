@@ -50,14 +50,11 @@ ___
 ### `Accounts` 📒
 
 <img align="center" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" />
-<img align="center" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+<img align="left" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
 <img align="center" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
 <img align="center" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
 <img align="center" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/steam.svg" />
 <img align="center" alt="Terminal" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
-
-
-
 
 
 ___
