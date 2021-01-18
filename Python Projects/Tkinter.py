@@ -4,10 +4,12 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 import tkinter.font as font
 import pygame
+import os
 
 root = Tk()
 
 pygame.mixer.init()
+pygame.init()
 
 
 class Window(Frame):
@@ -16,30 +18,49 @@ class Window(Frame):
         self.master = master
         self.pack(fill=BOTH, expand=1)
 
-        Spectre = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Spectre.jpg")
+        Spectre = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Spectre.jpg")
         Medusa = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Medusa.jpg")
 
-        Spectre_Skill1 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Spectre Skills\Spectral Dagger.png")
-        Spectre_Skill2 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Spectre Skills\Desolate.png")
-        Spectre_Skill3 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Spectre Skills\Dispersion.png")
-        Spectre_Ulti = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Spectre Skills\Spectral Hunt.png")
+        Spectre_Skill1 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Spectre Skills\Spectral Dagger.png")
+        Spectre_Skill2 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Spectre Skills\Desolate.png")
+        Spectre_Skill3 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Spectre Skills\Dispersion.png")
+        Spectre_Ulti = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Spectre Skills\Spectral Hunt.png")
 
-        Medusa_Skill1 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Medusa Skills\Split Shot.png")
-        Medusa_Skill2 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Medusa Skills\Mystic Snake.png")
-        Medusa_Skill3 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Medusa Skills\Mana Shield.png")
-        Medusa_Ulti = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Medusa Skills\Stone Gaze.png")
+        Medusa_Skill1 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Medusa Skills\Split Shot.png")
+        Medusa_Skill2 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Medusa Skills\Mystic Snake.png")
+        Medusa_Skill3 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Medusa Skills\Mana Shield.png")
+        Medusa_Ulti = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Medusa Skills\Stone Gaze.png")
 
-        attack1 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Attack Icon.png")
-        defense1 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Defense Icon.png")
-        strength1 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Strength Icon.png")
-        agility1 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Agility Icon.png")
-        intelligence1 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Intelligence Icon.png")
+        attack1 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Attack Icon.png")
+        defense1 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Defense Icon.png")
+        strength1 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Strength Icon.png")
+        agility1 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Agility Icon.png")
+        intelligence1 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Intelligence Icon.png")
 
-        attack2 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Attack Icon.png")
-        defense2 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Defense Icon.png")
-        strength2 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Strength Icon.png")
-        agility2 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Agility Icon.png")
-        intelligence2 = Image.open(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Intelligence Icon.png")
+        attack2 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Attack Icon.png")
+        defense2 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Defense Icon.png")
+        strength2 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Strength Icon.png")
+        agility2 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Agility Icon.png")
+        intelligence2 = Image.open(
+            r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\Attribute\Intelligence Icon.png")
 
         Spectre.thumbnail((200, 250))
         Medusa.thumbnail((200, 250))
@@ -89,6 +110,7 @@ class Window(Frame):
         render17 = ImageTk.PhotoImage(agility2)
         render18 = ImageTk.PhotoImage(strength2)
         render19 = ImageTk.PhotoImage(intelligence2)
+
 
         img = Label(self, image=render)
         img1 = Label(self, image=render1)
@@ -172,6 +194,7 @@ class Window(Frame):
         img19.place(x=950, y=637)
 
 
+
 class mylabels(object):
 
     def command1(self):
@@ -180,8 +203,12 @@ class mylabels(object):
         elif self.spectre_mana.get() >= 65:
             self.spectre_hp.set(self.spectre_hp.get() + 25)
             self.spectre_mana.set(self.spectre_mana.get() - 65)
-            pygame.mixer.music.load(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\HEAL.mp3")
-            pygame.mixer.music.play(loops=False)
+
+            pygame.mixer.Channel(3).play(pygame.mixer.Sound(
+                r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\HEAL.mp3"),
+                                         maxtime=2000,)
+            pygame.mixer.music.set_volume(1)
+
         elif self.spectre_mana.get() <= 64:
             messagebox.showinfo("CAN'T PERFORM HEAL", "NOT ENOUGH MANA")
 
@@ -197,14 +224,18 @@ class mylabels(object):
 
             msg.pack()
             self.damage.set(self.damage.get() + 110)
-            pygame.mixer.music.load(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\SPECTRE ATTACK SOUND.mpeg")
-            pygame.mixer.music.play(loops=False)
+            pygame.mixer.Channel(2).play(pygame.mixer.Sound(
+                r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\SPECTRE ATTACK SOUND.mpeg"),
+                                         maxtime=2000,)
+            pygame.mixer.music.set_volume(0.5)
+
         elif self.medusa_hp.get() == 0:
             messagebox.showwarning("CAN'T PERFORM ATTACK", "ENEMY DEFEATED")
             self.damage.set(self.damage.get() + 110)
-            pygame.mixer.music.load(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\VICTORY SOUND.mpeg")
-            pygame.mixer.music.play(loops=False)
 
+            pygame.mixer.music.load(r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\VICTORY SOUND.mpeg")
+            pygame.mixer.music.set_volume(0.5)
+            pygame.mixer.music.play(loops=-1)
 
     @staticmethod
     def Spectre():
@@ -376,10 +407,12 @@ class mylabels(object):
         intelligence2.config(font=("hooge 05_55", 15))
         intelligence2.place(x=854, y=637)
 
-
-    @staticmethod
-    def sound_effects():
-        pass
+    def sound_effects(self):
+        if self.medusa_hp.get() >= 1:
+            pygame.mixer.music.load(os.path.join(os.getcwd(), 'sound',
+                                             r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\BACKGROUND MUSIC.mp3"))
+            pygame.mixer.music.set_volume(1)
+            pygame.mixer.music.play(loops=False)
 
 
     spectre_hp = IntVar()
@@ -391,7 +424,7 @@ class mylabels(object):
     damage.set(110)
 
     spectre_hp.set(4190)
-    medusa_hp.set(3630)
+    medusa_hp.set(1100)
 
     spectre_mana.set(1000)
     medusa_mana.set(1000)
@@ -419,6 +452,7 @@ if __name__ == "__main__":
     GAME.message_box()
     GAME.Spec_Attributes()
     GAME.Medusa_Attributes()
+    GAME.sound_effects()
     root.wm_title("Defense of the Ancients 2")
     logo = PhotoImage(file=r"C:\Users\User\PycharmProjects\My_Repository\Python Projects\Tkinter GUI Tools\DOTA2 LOGO.png")
     root.iconphoto(False, logo)

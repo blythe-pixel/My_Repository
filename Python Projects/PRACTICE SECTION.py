@@ -1,51 +1,51 @@
 # TODO FIND A MAXIMUM VALUE
 # x = int(input('enter first number:'))
 # y = int(input('enter second number:'))
-
+#
 # z = int(input('enter third number:'))
-
-
+#
+#
 # num = [x,y,z]
-
+#
 # print(max(num))
-
+#
 # TODO IDENTIFY IF THE VALUE IS POSITIVE OR NEGATIVE
 # a = float(input("Enter a Number:"))
-
+#
 # if a > 0:
 #     print("Positive")
 # else:
 #     print("Negative")
-
+#
 # TODO FORMATTED LARGE NUMBER
 # num = 100000000000
 # num1 = 100000000000
-
+#
 # sum = num1 + num
-
+#
 # print(f'{sum:,}')
-
+#
 # TODO ADD USER-BASED NUMBERS USING FOR LOOP
 # for i in range(3):
 #     num = eval(input('Enter a number: '))
 #     num1 = num+num+num
 # print ('The square of your number is', f'{num1:,}')
 # print('The loop is now done.')
-
+#
 # TODO FINDING SQUARE ROOT BASED ON RANGE
 # import math as s
 # for i in range(1, 500):
 #     a = s.sqrt(i)
 #     if i % a == 0:
 #         print(i, end=' ')
-
+#
 # TODO FIBONACCI SEQUENCE W/ USER INPUT
 # list1 = [0, 1]
 # user = int(input("Enter Number:"))
 # for i in range(user):
 #     list1.append(list1[-1]+list1[-2])
 # print(list1)
-
+#
 # TODO FINDING PRIME NUMBER BASED ON USER INPUT
 # num = eval(input("Input:"))
 # for i in range(2, num):
@@ -55,7 +55,7 @@
 #     else:
 #         print("Prime")
 #         break
-
+#
 # TODO PRINTING PATTERNS
 # a = '*'
 # print("Pattern 1")
@@ -78,20 +78,20 @@
 #     print(" "*(h-i), "*"*(i*2+1))
 # for i in range(h-2, -1, -1):
 #     print(" "*(h-i), "*"*(i*2+1))
-
+#
 # TODO COLLIDING SETS
 # set1 = {'a': 0, 'b': 1}
 # set2 = {'c': 2, 'd': 3}
 # set3 = {'e':4, 'f':5}
 # all_set = {**set1, **set2, **set3}
 # print(all_set)
-
+#
 # TODO COLLAPSING A MULTIDIMENSIONAL ARRAY
 # import numpy as np
 # arr = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 # for x in np.nditer(arr):
 #     print(x, end=" ")
-
+#
 # TODO DATA VISUALIZATION EXAMPLE
 # from numpy import random
 # import matplotlib.pyplot as plt
@@ -99,19 +99,19 @@
 # x = random.normal(loc=1, scale=10, size=(2, 3))
 # sns.distplot(x, hist=True)
 # plt.show()
-
+# #
 # TODO IP ADDRESS FETCHER
 # import socket
 # host = socket.gethostname()
 # ip = socket.gethostbyname(host)
 # print(host)
 # print(ip)
-
+#
 # TODO IMPORTING A SELF-MADE MODULE W/ SPACES
 # Numpy = __import__("Numpy (Random)")
 # Numpy.random_int()
 # Numpy.data_dist()
-
+#
 # TODO BASIC GUI USING DEARPUGUI
 # from dearpygui.core import *
 # def save_callback(sender, data):
@@ -121,7 +121,7 @@
 # add_input_text("string")
 # add_slider_float("float")
 # start_dearpygui()
-
+#
 # TODO BASIC GUI USING PYAUTOGUI
 # import pyautogui
 # pyautogui.alert('This is an alert box.')
@@ -129,7 +129,7 @@
 # pyautogui.confirm('Enter option.', buttons=['A', 'B', 'C'])
 # pyautogui.prompt(pyautogui.countdown(seconds=5))
 # pyautogui.password('Enter password (text will be hidden)')
-
+#
 # TODO BASIC SHUTDOWN PROGRAM
 # try:
 #     import os
@@ -144,13 +144,13 @@
 #         print("Error")
 # except ImportError:
 #     pass
-
+#
 # TODO CREATE HTML FILE BASED W/ GEOGRAPHICAL POSITION
 # import folium
 # cdo_location = [8.4542, 124.6319]
 # map = folium.Map(location=cdo_location, zoom_start=15)
 # map.save("mapa.html")
-
+#
 # TODO DATA VISUALIZATION USING PRETTYTABLE
 # from prettytable import *
 # x = PrettyTable()
@@ -159,16 +159,16 @@
 # x.add_row(["Yobel Chloe Labadan", 19, "B.S Data Science", "N/A"])
 # x.add_row(["Natasha Kaye T, Agapay", 19, "B.S Data Science", "N/A"])
 # x.add_row(["Maikko Nikko Banaag", 19, "B.S Data Science", "N/A"])
-
+#
 # """ The del_row method takes an integer index of a single row to delete.
 # The del_column method takes a field name of a single column to delete.
 # The clear_rows method takes no arguments and deletes all the rows in the table -
 # but keeps the field names as they were so you that you can repopulate it with the same kind of data.
 # The clear method takes no arguments and deletes all rows and all field names. It's not quite the same as creating a
 # fresh table instance, though - style related settings, discussed later, are maintained."""
-
+#
 # print(x)
-
+#
 # TODO GENERATING FAKE INFORMATION VIA MODULE
 # from faker import Faker
 # from faker.providers import internet
@@ -179,12 +179,12 @@
 # print("Fake Name:", fake.name())
 # print("Fake Address:", fake.address())
 # print("Fake Sentence:", fake.sentence())
-
+#
 # TODO __NAME__ SPECIAL PYTHON VARIABLE
 # ex = __import__("Name Variable")
 # ex.example()
-
-
+#
+#
 # TODO (RECURSIVE SUMMATION)
 # try:
 #     class summation():
@@ -219,7 +219,7 @@
 #
 # sum.example()
 # sum.example2()
-
+#
 # class me():
 #
 #     def __init__(self, name, age):
@@ -243,7 +243,7 @@
 #
 #
 # me1.compare(me2)
-
+#
 # TODO PASSING ARGUMENTS INTO VARIABLES USING NAMEDTUPLE
 # try:
 #     from collections import namedtuple
@@ -255,7 +255,7 @@
 #     print(f'The second computer has a {com2.cpu} CPU and {com2.ram} of RAM')
 # except ImportError:
 #     pass
-
+#
 # TODO GETTING THE AREA AND RADIUS OF A CIRCLE USING CLASSES AND OBJECTS
 # from math import pi
 #
@@ -303,7 +303,7 @@
 #
 # Circle.input1()
 # Circle.input2()
-
+#
 # TODO GETTING DISCOUNT USING CLASSES AND OBJECTS
 # class Mobile():
 #
@@ -339,7 +339,7 @@
 # if __name__ == '__main__':
 #     mobile1.new_price()
 #     mobile1.discount_price()
-
+#
 # TODO class with decorators (classmethod & staticmethod)
 # class Student():
 #
@@ -364,7 +364,7 @@
 #
 # print(Student.students_name("Kristian", "Roger", "Agdeppa"))
 # print(Student.student_grades())
-
+#
 # TODO EXTRACTING VOWELS IN A STRING
 # my_name = "Kristian Roger Mariblanca Agdeppa"
 # total = 0
@@ -379,7 +379,7 @@
 #
 # print() # to separate the next print from the last one
 # print("The number of vowels in my name is:", total)
-
+#
 # TODO CLASS INHERITANCE SINGLE-LEVEL & MULTI-LEVEL
 # class class1(object):
 #
@@ -406,11 +406,11 @@
 # func1 = class3()
 # func2 = class3()
 # func3 = class3()
-
+#
 # func1.function1()
 # func2.function2()
 # func3.function3()
-
+#
 # TODO ABSTRACT CLASSES AND METHODS
 # from abc import *
 #
@@ -441,7 +441,7 @@
 # """ Abstract classes can be inherited by any sub classes, including all the
 #     abstract methods, all the values that the subclasses pass in the abstract methods
 #     are not overridden """
-
+#
 # TODO GENERATORS
 # def calculator(num1=0, num2=0, operator=""):
 #
@@ -472,7 +472,7 @@
 #
 # except BaseException as e:
 #         print(e)
-
+#
 # TODO EXECUTION DILATION USING MODULE TIME
 # import time
 #
@@ -487,7 +487,7 @@
 #
 # else:
 #     print("All Computers are working!")
-
+#
 # TODO BATTERY NOTIFICATION
 # import psutil
 # from plyer import notification
@@ -503,7 +503,7 @@
 #     )
 #     time.sleep(60*60)
 #     continue
-
+#
 # TODO INTERNET SPEED CHECKER
 # import speedtest
 # from plyer import notification
@@ -522,44 +522,44 @@
 #     )
 #     time.sleep(60*60)
 #     continue
-
+#
 # TODO IDENTIFY IF THE VALUE IS POSITIVE OR NEGATIVE
 # a = float(input("Enter a Number:"))
-
+#
 # if a > 0:
 #     print("Positive")
 # else:
 #     print("Negative")
-
+#
 # TODO FORMATTED LARGE NUMBER
 # num = 100000000000
 # num1 = 100000000000
-
+#
 # sum = num1 + num
-
+#
 # print(f'{sum:,}')
-
+#
 # TODO ADD USER-BASED NUMBERS USING FOR LOOP
 # for i in range(3):
 #     num = eval(input('Enter a number: '))
 #     num1 = num+num+num
 # print ('The square of your number is', f'{num1:,}')
 # print('The loop is now done.')
-
+#
 # TODO FINDING SQUARE ROOT BASED ON RANGE
 # import math as s
 # for i in range(1, 500):
 #     a = s.sqrt(i)
 #     if i % a == 0:
 #         print(i, end=' ')
-
+#
 # TODO FIBONACCI SEQUENCE W/ USER INPUT
 # list1 = [0, 1]
 # user = int(input("Enter Number:"))
 # for i in range(user):
 #     list1.append(list1[-1]+list1[-2])
 # print(list1)
-
+#
 # TODO FINDING PRIME NUMBER BASED ON USER INPUT
 # num = eval(input("Input:"))
 # for i in range(2, num):
@@ -569,7 +569,7 @@
 #     else:
 #         print("Prime")
 #         break
-
+#
 # TODO PRINTING PATTERNS
 # a = '*'
 # print("Pattern 1")
@@ -592,20 +592,20 @@
 #     print(" "*(h-i), "*"*(i*2+1))
 # for i in range(h-2, -1, -1):
 #     print(" "*(h-i), "*"*(i*2+1))
-
+#
 # TODO COLLIDING SETS
 # set1 = {'a': 0, 'b': 1}
 # set2 = {'c': 2, 'd': 3}
 # set3 = {'e':4, 'f':5}
 # all_set = {**set1, **set2, **set3}
 # print(all_set)
-
+#
 # TODO COLLAPSING A MULTIDIMENSIONAL ARRAY
 # import numpy as np
 # arr = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 # for x in np.nditer(arr):
 #     print(x, end=" ")
-
+#
 # TODO DATA VISUALIZATION EXAMPLE
 # from numpy import random
 # import matplotlib.pyplot as plt
@@ -613,19 +613,19 @@
 # x = random.normal(loc=1, scale=10, size=(2, 3))
 # sns.distplot(x, hist=True)
 # plt.show()
-
+#
 # TODO IP ADDRESS FETCHER
 # import socket
 # host = socket.gethostname()
 # ip = socket.gethostbyname(host)
 # print(host)
 # print(ip)
-
+#
 # TODO IMPORTING A SELF-MADE MODULE W/ SPACES
 # Numpy = __import__("Numpy (Random)")
 # Numpy.random_int()
 # Numpy.data_dist()
-
+#
 # TODO BASIC GUI USING DEARPUGUI
 # from dearpygui.core import *
 # def save_callback(sender, data):
@@ -635,7 +635,7 @@
 # add_input_text("string")
 # add_slider_float("float")
 # start_dearpygui()
-
+#
 # TODO BASIC GUI USING PYAUTOGUI
 # import pyautogui
 # pyautogui.alert('This is an alert box.')
@@ -643,7 +643,7 @@
 # pyautogui.confirm('Enter option.', buttons=['A', 'B', 'C'])
 # pyautogui.prompt(pyautogui.countdown(seconds=5))
 # pyautogui.password('Enter password (text will be hidden)')
-
+#
 # TODO BASIC SHUTDOWN PROGRAM
 # try:
 #     import os
@@ -658,13 +658,13 @@
 #         print("Error")
 # except ImportError:
 #     pass
-
+#
 # TODO CREATE HTML FILE BASED W/ GEOGRAPHICAL POSITION
 # import folium
 # cdo_location = [8.4542, 124.6319]
 # map = folium.Map(location=cdo_location, zoom_start=15)
 # map.save("mapa.html")
-
+#
 # TODO DATA VISUALIZATION USING PRETTYTABLE
 # from prettytable import *
 # x = PrettyTable()
@@ -673,16 +673,16 @@
 # x.add_row(["Yobel Chloe Labadan", 19, "B.S Data Science", "N/A"])
 # x.add_row(["Natasha Kaye T, Agapay", 19, "B.S Data Science", "N/A"])
 # x.add_row(["Maikko Nikko Banaag", 19, "B.S Data Science", "N/A"])
-
+#
 # """ The del_row method takes an integer index of a single row to delete.
 # The del_column method takes a field name of a single column to delete.
 # The clear_rows method takes no arguments and deletes all the rows in the table -
 # but keeps the field names as they were so you that you can repopulate it with the same kind of data.
 # The clear method takes no arguments and deletes all rows and all field names. It's not quite the same as creating a
 # fresh table instance, though - style related settings, discussed later, are maintained."""
-
+#
 # print(x)
-
+#
 # TODO GENERATING FAKE INFORMATION VIA MODULE
 # from faker import Faker
 # from faker.providers import internet
@@ -693,12 +693,12 @@
 # print("Fake Name:", fake.name())
 # print("Fake Address:", fake.address())
 # print("Fake Sentence:", fake.sentence())
-
+#
 # TODO __NAME__ SPECIAL PYTHON VARIABLE
 # ex = __import__("Name Variable")
 # ex.example()
-
-
+#
+#
 # TODO (RECURSIVE SUMMATION)
 # try:
 #     class summation():
@@ -733,7 +733,7 @@
 #
 # sum.example()
 # sum.example2()
-
+#
 # class me():
 #
 #     def __init__(self, name, age):
@@ -757,7 +757,7 @@
 #
 #
 # me1.compare(me2)
-
+#
 # TODO PASSING ARGUMENTS INTO VARIABLES USING NAMEDTUPLE
 # try:
 #     from collections import namedtuple
@@ -769,7 +769,7 @@
 #     print(f'The second computer has a {com2.cpu} CPU and {com2.ram} of RAM')
 # except ImportError:
 #     pass
-
+#
 # TODO GETTING THE AREA AND RADIUS OF A CIRCLE USING CLASSES AND OBJECTS
 # from math import pi
 #
@@ -817,7 +817,7 @@
 #
 # Circle.input1()
 # Circle.input2()
-
+#
 # TODO GETTING DISCOUNT USING CLASSES AND OBJECTS
 # class Mobile():
 #
@@ -853,7 +853,7 @@
 # if __name__ == '__main__':
 #     mobile1.new_price()
 #     mobile1.discount_price()
-
+#
 # TODO class with decorators (classmethod & staticmethod)
 # class Student():
 #
@@ -878,7 +878,7 @@
 #
 # print(Student.students_name("Kristian", "Roger", "Agdeppa"))
 # print(Student.student_grades())
-
+#
 # TODO EXTRACTING VOWELS IN A STRING
 # my_name = "Kristian Roger Mariblanca Agdeppa"
 # total = 0
@@ -893,7 +893,7 @@
 #
 # print() # to separate the next print from the last one
 # print("The number of vowels in my name is:", total)
-
+#
 # TODO CLASS INHERITANCE SINGLE-LEVEL & MULTI-LEVEL
 # class class1(object):
 #
@@ -920,11 +920,11 @@
 # func1 = class3()
 # func2 = class3()
 # func3 = class3()
-
+#
 # func1.function1()
 # func2.function2()
 # func3.function3()
-
+#
 # TODO ABSTRACT CLASSES AND METHODS
 # from abc import *
 #
@@ -955,7 +955,7 @@
 # """ Abstract classes can be inherited by any sub classes, including all the
 #     abstract methods, all the values that the subclasses pass in the abstract methods
 #     are not overridden """
-
+#
 # TODO GENERATORS
 # def calculator(num1=0, num2=0, operator=""):
 #
@@ -986,7 +986,7 @@
 #
 # except BaseException as e:
 #         print(e)
-
+#
 # TODO EXECUTION DILATION USING MODULE TIME
 # import time
 #
@@ -1001,7 +1001,7 @@
 #
 # else:
 #     print("All Computers are working!")
-
+#
 # TODO BATTERY NOTIFICATION
 # import psutil
 # from plyer import notification
@@ -1017,7 +1017,7 @@
 #     )
 #     time.sleep(60*60)
 #     continue
-
+#
 # TODO INTERNET SPEED CHECKER
 # import speedtest
 # from plyer import notification
@@ -1036,7 +1036,7 @@
 #     )
 #     time.sleep(60*60)
 #     continue
-
+#
 # TODO WALRUS COMMAND
 # try:
 #     input1 = eval(input("Enter Anything:"))
@@ -1049,3 +1049,122 @@
 #
 # """ The walrus command is a type of command that turns any variable into a True Statement
 #     it can be represented as := symbol"""
+#
+#
+# TODO RANDOM FACTS GENERATOR
+# import randfacts
+# facts = randfacts.getFact(True)
+# print(facts)
+
+# TODO LINKED LIST
+# class Node:
+#     def __init__(self, data):
+#         self.item = data
+#         self.ref = None
+#
+#
+# class LinkedList:
+#     def __init__(self):
+#         self.start_node = None
+#
+#     def traverse_list(self):
+#         if self.start_node is None:
+#             print("List has no element")
+#             return
+#         else:
+#             n = self.start_node
+#             while n is not None:
+#                 print(n.item, " ")
+#                 n = n.ref
+#
+#     def a(self, data):
+#         new_node = Node(data)
+#         new_node.ref = self.start_node
+#         self.start_node = new_node
+#
+#     def b(self, data):
+#         new_node = Node(data)
+#         if self.start_node is None:
+#             self.start_node = new_node
+#             return
+#         n = self.start_node
+#         while n.ref is not None:
+#             n = n.ref
+#         n.ref = new_node;
+#
+#     def c(self, x, data):
+#
+#         n = self.start_node
+#         print(n.ref)
+#         while n is not None:
+#             if n.item == x:
+#                 break
+#             n = n.ref
+#         if n is None:
+#             print("item not in the list")
+#         else:
+#             new_node = Node(data)
+#             new_node.ref = n.ref
+#             n.ref = new_node
+#
+#     def d(self, x, data):
+#         if self.start_node is None:
+#             print("List has no element")
+#             return
+#
+#         if x == self.start_node.item:
+#             new_node = Node(data)
+#             new_node.ref = self.start_node
+#             self.start_node = new_node
+#             return
+#
+#         n = self.start_node
+#         print(n.ref)
+#         while n.ref is not None:
+#             if n.ref.item == x:
+#                 break
+#             n = n.ref
+#         if n.ref is None:
+#             print("item not in the list")
+#         else:
+#             new_node = Node(data)
+#             new_node.ref = n.ref
+#             n.ref = new_node
+#
+#     def e(self, index, data):
+#         if index == 1:
+#             new_node = Node(data)
+#             new_node.ref = self.start_node
+#             self.start_node = new_node
+#         i = 1
+#         n = self.start_node
+#         while i < index - 1 and n is not None:
+#             n = n.ref
+#             i = i + 1
+#         if n is None:
+#             print("Index out of bound")
+#         else:
+#             new_node = Node(data)
+#             new_node.ref = n.ref
+#             n.ref = new_node
+#
+# newllist = LinkedList()
+#
+# # TODO insert_at_end
+# newllist.b(15)
+# # TODO insert_at_start
+# newllist.a(10)
+#
+# # TODO insert_at_end
+# newllist.b(20)
+#
+# # TODO insert_after_item
+# newllist.c(10,25)         # 10,15,5,25,15,20
+#
+# # TODO insert_before_item
+# newllist.d(25,5)
+#
+# # TODO insert_at_index
+# newllist.e(2,15)
+#
+# newllist.traverse_list()
