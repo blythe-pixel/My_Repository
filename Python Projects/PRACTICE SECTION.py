@@ -1149,22 +1149,35 @@
 #             n.ref = new_node
 #
 # newllist = LinkedList()
-#
-# # TODO insert_at_end
 # newllist.b(15)
-# # TODO insert_at_start
 # newllist.a(10)
-#
-# # TODO insert_at_end
 # newllist.b(20)
-#
-# # TODO insert_after_item
 # newllist.c(10,25)         # 10,15,5,25,15,20
-#
-# # TODO insert_before_item
 # newllist.d(25,5)
-#
-# # TODO insert_at_index
 # newllist.e(2,15)
+# newllist.traverse_list
+
+# TODO CONTINUOUS ADDITION OF THE RANGED NUMBER
+# N = int(input("Input Number:"))
 #
-# newllist.traverse_list()
+# count = 1
+#
+# for numbers in range(N):
+#     count += numbers
+#     numbers += count
+#     print(numbers)
+
+# TODO SEARCHING WORD IN A TEXT
+# text = str(input("Enter text:"))
+# word = str(input("Enter word:"))
+#
+#
+# def search(text, word):
+#     if word in text:
+#         print("Word found!")
+#
+#     else:
+#         print("Word not found!")
+#
+#
+# search(text, word)
